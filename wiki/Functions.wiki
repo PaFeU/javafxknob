@@ -27,14 +27,7 @@
 *public function resetValue()*    
 
  Set value to the minimum, animated or not animated according to control's definitions.
-    
-
-*public function resetValue(animate:Boolean)*
-
- Set value to the minimum.
-
- * animate animated or not animated reset value
-    
+        
 
 *public function setMaxValue(animate:Boolean)*
 
