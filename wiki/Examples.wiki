@@ -25,3 +25,28 @@ var colorSelector = Knob{
                     fill: bind colors[colorSelector.integerValue - 1]
                 }
 }}}
+
+= On/Off switch =
+
+This knob allows the user to set an on/off switch. It returns a 0 or 1.
+
+{{{
+/** on/off switch */
+var onSwitch = Knob{ ui: switchKnob{},
+    scaleX:0.7, scaleY:0.7, translateX:240, translateY:380
+    min:0, max:1, value:0, minAngle:-90, maxAngle:90
+    dialLinesNumber:2, dialLinesWidth:5
+    integerOnly:true, integerQuickAdjust:true
+};
+
+/** light bulb image for on/off switch */
+var imgName = bind if (onSwitch.integerValue == 1) then
+        "{__DIR__}bulbon.gif" else "{__DIR__}bulboff.gif";
+
+...
+
+                ImageView {
+                    x: 380, y: 380
+                    image: bind Image { url: imgName }
+                },
+}}}
