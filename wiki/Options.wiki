@@ -5,8 +5,8 @@
 *Knob definition. Contains the graphical appearance and radius for the gauge lines*
  ui: basicKnob
 
-*Allows animated adjustment to the knob control*
- animatedAutoAdjust: true (default)
+*Contains the current value (can be set by the user)*
+ value: 1.0 (default)
 
 *Minimum value allowed by the control*
  min: 1.0 (default)
@@ -16,6 +16,9 @@
 
 *The control accepts and returns only integer values*
  integerOnly: false (default)
+
+*Allows animated adjustment to the knob control*
+ animatedAutoAdjust: true (default)
 
 *Instantaneous (not animated) adjustment for integer values*
  integerQuickAdjust: false (default)
