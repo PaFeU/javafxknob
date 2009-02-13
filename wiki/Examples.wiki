@@ -50,3 +50,26 @@ var imgName = bind if (onSwitch.integerValue == 1) then
                     image: bind Image { url: imgName }
                 },
 }}}
+
+= Many turns =
+
+This knob allows the user to set a precise value having to turn the knob many times the pick a value:
+
+{{{
+var lenghtSelector = Knob{ ui: basicKnob {}
+    min: 0, max: 4000, minAngle:0, maxAngle:1440
+    dialLinesLongEvery:5, dialLinesNumber:50, dialLinesWidth:1,
+    translateX: -30, translateY:100
+    scaleX: 0.5, scaleY: 0.5,
+};
+
+...
+
+                Rectangle {
+                    x: 110, y: 150
+                    width: bind lenghtSelector.value / 12
+                    height: 50
+                    fill: Color.RED
+                }
+
+}}}
