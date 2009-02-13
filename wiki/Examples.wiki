@@ -2,7 +2,7 @@
 
 = Color selector =
 
-This knob allows the user from between a reduced number of options. If the user sets the value manually, the control "jumps" to the nearest option/value. If the value for the knob is set pro grammatically, it slides softly to the nearest option.
+This knob allows the user to select a value from between a reduced number of options. If the user sets the value manually, the control "jumps" to the nearest option/value instantaneously. If the value for the knob is set programmatically, it slides softly to the nearest option.
 {{{
 /** Color options */
 var colors = [Color.RED, Color.BLUE, Color.YELLOW, Color.GREENYELLOW,
@@ -28,7 +28,7 @@ var colorSelector = Knob{
 
 = On/Off switch =
 
-This knob allows the user to set an on/off switch. It returns a 0 or 1.
+This knob allows the user to set an on/off switch. It returns an integer value of 0 or 1.
 
 {{{
 /** on/off switch */
@@ -53,7 +53,7 @@ var imgName = bind if (onSwitch.integerValue == 1) then
 
 = Many turns =
 
-This knob allows the user to set a precise value having to turn the knob many times the pick a value:
+This knob allows the user to set a precise value having to turn the knob many times to pick a value:
 
 {{{
 var lenghtSelector = Knob{ ui: basicKnob {}
