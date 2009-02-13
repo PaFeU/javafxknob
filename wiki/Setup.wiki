@@ -41,4 +41,4 @@ After that, you can reset the value in the knob (to the minimum value allowed) u
 
 The knob control allows you to setup a maximum angle (for the maximum value) higher than 360 degrees, although, the number of lines in the gauge are limited to 360 degrees.
 
-This mean that you can have a knob that reach it maximum value after many rounds, but the number of lines in the gauge will be distributed up to 360 degrees or in a lower angle range (<360 degrees).
+This mean that you can have a knob that reach it maximum value after many turns, but the number of lines in the gauge will be distributed up to 360 degrees or in a lower angle range (<360 degrees).
