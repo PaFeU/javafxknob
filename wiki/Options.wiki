@@ -23,7 +23,7 @@
 *Instantaneous (not animated) adjustment for integer values*
  integerQuickAdjust: false (default)
 
-*Angle for the minimum value in the control (-180 to 180)*
+*Angle for the minimum value in the control*
  minAngle: -150.0 (default)
 
 *Angle to the maximum value (can be higher than 360 degrees)*
