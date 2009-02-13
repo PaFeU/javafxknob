@@ -36,3 +36,9 @@ public class orangeKnob extends basicKnob {
 
 }
 }}}
+
+You can always set a custom radius for your knob instances. Replacing the default values in the knob type variables (i.e. internalRadDial, etc).
+
+{{{
+var colorSelector = Knob{ ui: orangeKnob{ internalRadDial:50 }, ...
+}}}
