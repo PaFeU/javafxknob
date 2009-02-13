@@ -1,0 +1,27 @@
+#summary Examples of knobs
+
+= Color selector =
+
+This knob allows the user from between a reduced number of options. If the user sets the value manually, the control "jumps" to the nearest option/value. If the value for the knob is set pro grammatically, it slides softly to the nearest option.
+{{{
+/** Color options */
+var colors = [Color.RED, Color.BLUE, Color.YELLOW, Color.GREENYELLOW,
+    Color.PURPLE, Color.CYAN, Color.BROWN];
+
+/** Color selector */
+var colorSelector = Knob{ 
+    scaleX: 0.5, scaleY:0.5, translateX:160
+    ui: basicKnob{}, dialLinesColor: Color.RED    
+    min:1, max:bind sizeof colors, dialLinesNumber: bind sizeof colors
+    integerOnly:true, animatedAutoAdjust:true, integerQuickAdjust:true
+};
+
+...
+
+                Circle {
+                    centerX: 200,
+                    centerY: 200
+                    radius: 100
+                    fill: bind colors[colorSelector.integerValue - 1]
+                }
+}}}
