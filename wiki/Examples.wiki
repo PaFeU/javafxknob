@@ -9,11 +9,11 @@ var colors = [Color.RED, Color.BLUE, Color.YELLOW, Color.GREENYELLOW,
     Color.PURPLE, Color.CYAN, Color.BROWN];
 
 /** Color selector */
-var colorSelector = Knob{ 
-    scaleX: 0.5, scaleY:0.5, translateX:160
+var colorSelector = Knob { 
     ui: basicKnob{}, dialLinesColor: Color.RED    
     min:1, max:bind sizeof colors, dialLinesNumber: bind sizeof colors
     integerOnly:true, animatedAutoAdjust:true, integerQuickAdjust:true
+    scaleX: 0.5, scaleY:0.5, translateX:160
 };
 
 ...
