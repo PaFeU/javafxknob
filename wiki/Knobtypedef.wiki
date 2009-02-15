@@ -4,7 +4,7 @@
 
 To describe a new type of knob for the control, you just need to create a new class that inherits from basicKnob.
 
-In this class you can set the path to the graphical resources of the knob (probably an Adobe Illustrator file converted to .FXZ with the JavaFX Production Suite) and set the radius for the gauge lines in this knob (distance from the center of the component to the start or end of the lines in the gauge).
+In this class you can set the path to the graphical resources of the knob (probably an Adobe Illustrator file converted to .FXZ using the JavaFX Production Suite) and set the radius for the gauge lines in this knob (distance from the center of the component to the start or end of the lines in the gauge).
 
 The knob has two kind of gauge lines, short and long. So, once you instantiate a new knob, you just need to set the frequency for the long lines in the gauge without additional work.
 
