@@ -8,7 +8,7 @@ In this class you can set the path to the graphical resources of the knob (proba
 
 The knob has two kind of gauge lines, short and long. So, once you instantiate a new knob, you just need to set the frequency for the long lines in the gauge without additional work.
 
-The graphical resource (in the .fxz file) includes two elements or group of elements (layers). One named "knob", which contains the general appearance of the knob. The second layer named "gauge" contains the moving part of the knob (includes a transparent line connecting the center of the knob to the border of the knob, this is use to rotate the "gauge" using the tipo of the line as center of rotation).
+The graphical resource (in the .fxz file) includes two elements or group of elements (layers). One named "knob", which contains the general appearance of the knob. The second layer named "gauge" contains the moving part of the knob (includes a transparent line connecting the center of the knob with the border of the knob. The class rotate the "gauge" using the tip of the line as the center of rotation).
 
 The Netbeans project includes three Adobe Illustrator examples in the root directory.
 
