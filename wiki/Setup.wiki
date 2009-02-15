@@ -13,7 +13,7 @@ When you setup a knob, you can define different type of parameters for the contr
 
 For a detailed explanation of the options, please check [Options this page].
 
-A general definition of a know should look like this:
+A general definition of a knob should look like this:
 
 {{{
 var myKnob = Knob { ui: basicKnob {}
