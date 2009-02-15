@@ -33,10 +33,10 @@ This knob allows the user to set an on/off switch. It returns an integer value o
 {{{
 /** on/off switch */
 var onSwitch = Knob{ ui: switchKnob{},
-    scaleX:0.7, scaleY:0.7, translateX:240, translateY:380
     min:0, max:1, value:0, minAngle:-30, maxAngle:30
     dialLinesNumber:2, dialLinesWidth:5
     integerOnly:true, integerQuickAdjust:true
+    scaleX:0.7, scaleY:0.7, translateX:240, translateY:380
 };
 
 /** light bulb image for on/off switch */
