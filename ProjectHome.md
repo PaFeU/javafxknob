@@ -1,0 +1,1 @@
+<font color='red'><b>This project was moved <a href='http://code.google.com/p/memefx/'>HERE</a>.</b></font>
